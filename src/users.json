@@ -1,0 +1,33 @@
+[
+  {
+    "id": 1,
+    "user": "Elon Reeve Musk",
+    "tweets": 777,
+    "followers": 100500,
+    "avatar": "images/Elon.png"
+  },
+
+  {
+    "id": 2,
+    "user": "Nik Sailor",
+    "tweets": 222,
+    "followers": 700000,
+    "avatar": "images/Nik.png"
+  },
+
+  {
+    "id": 3,
+    "user": "Katy Berry",
+    "tweets": 8000,
+    "followers": 900000,
+    "avatar": "images/Katy.png"
+  },
+
+  {
+    "id": 4,
+    "user": "Elton Moon",
+    "tweets": 7,
+    "followers": 100,
+    "avatar": "images/Elton.png"
+  }
+]
