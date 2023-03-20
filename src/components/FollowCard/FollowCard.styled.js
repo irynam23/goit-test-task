@@ -55,25 +55,18 @@ export const StyledEllipse = styled.div`
   border-radius: 50%;
 `;
 
-export const StyledAvatar = styled.div`
-  width: 70px;
-  height: 70px;
-  overflow: hidden;
-  border-radius: 50%;
-`;
-
-export const StyledBack = styled.div`
-  position: absolute;
+export const StyledInnerEllipse = styled.div`
   width: 62px;
   height: 62px;
-  left: 9.48px;
-  top: 9.42px;
-  background: linear-gradient(
-    114.99deg,
-    #471ca9 -0.99%,
-    #5736a3 54.28%,
-    #4b2a99 78.99%
-  );
+  border-radius: 50%;
+  overflow: hidden;
+  background: #5736a3;
+`;
+
+export const StyledAvatar = styled.div`
+  width: 65px;
+  height: 65px;
+  overflow: hidden;
   border-radius: 50%;
 `;
 

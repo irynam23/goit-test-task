@@ -8,6 +8,7 @@ import {
   StyledBtn,
   StyledEllipse,
   StyledAvatar,
+  StyledInnerEllipse,
 } from "./FollowCard.styled";
 import { Logo } from "../../assets/icons";
 import background from "../../assets/images/picture.png";
@@ -39,9 +40,11 @@ export const FollowCard = ({ id, tweets, followers, avatar }) => {
       </StyledPic>
       <StyledSeparator>
         <StyledEllipse>
-          <StyledAvatar>
-            <img src={avatar} alt="avatar" width="70" />
-          </StyledAvatar>
+          <StyledInnerEllipse>
+            <StyledAvatar>
+              <img src={avatar} alt="avatar" width="65" />
+            </StyledAvatar>
+          </StyledInnerEllipse>
         </StyledEllipse>
       </StyledSeparator>
 
